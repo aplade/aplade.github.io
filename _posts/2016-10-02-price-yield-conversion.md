@@ -111,3 +111,13 @@ P<sup>clean</sup> = 112.3071034523 - 2.4330601093 = <b>109.874043343</b>
 </div>
 
 Which rounded to 5 decimal places is the exact value calculated by the Bloomberg YAS screen.
+
+For convenience we provide below the computation for each coupon period.
+
+| Date     | Payment | T (years)    | Discount Factor | Present Value  |
+|----------|---------|--------------|-----------------|----------------|
+| 04/01/17 | 3.25    | 0.2513661202 | 0.9994978959    | 3.2483681617   |
+| 04/01/18 | 3.25    | 1.2513661202 | 0.9975028901    | 3.241884393    |
+| 04/01/19 | 3.25    | 2.2513661202 | 0.9955118664    | 3.2354135658   |
+| 04/01/20 | 103.25  | 3.2513661202 | 0.9935248168    | 102.5814373317 |
+|          |         |              | Sum             | **112.3071034523** |
