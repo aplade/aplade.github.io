@@ -112,7 +112,7 @@ P<sup>clean</sup> = 112.3071034523 - 2.4330601093 = <b>109.874043343</b>
 
 Which rounded to 5 decimal places is the exact value calculated by the Bloomberg YAS screen.
 
-For convenience we provide below the computation for each coupon period.
+For convenience, we provide below the computation for each coupon period.
 
 | Date     | Payment | T (years)    | Discount Factor | Present Value  |
 |----------|---------|--------------|-----------------|----------------|
