@@ -11,6 +11,7 @@ This post aims to provide a step-by-step explanation of the Price/Yield conversi
 
 We will begin with the process of computing the price, given the yield, of a Federal Republic of Germany debt security maturing on the 4th of January 2020 and paying an annual coupon of 3.25%. 
 
+## Present Value
 
 Let's lay down the pricing parameters first:
 
@@ -44,6 +45,8 @@ P<sup>clean</sup> = P<sup>full</sup> - Accrued Interest
 </em>
 </div>
 
+## Accrued Interest
+
 Accrued interest equals the coupon times the fraction of the coupon period from the previous coupon payment date to the valuation date.
 This fraction is calculated by using the day count convention of the bond which is in our case Actual/Actual.
 
@@ -76,6 +79,7 @@ Let's now go back to the equation of the "dirty price":
 
 ![1]({{ site.url }}/images/1.jpg)
 
+## Computing The Time Periods 
 
 It is worth noting that per ICMA Rule 803.1 the yield is annually compounded.
 
@@ -98,11 +102,13 @@ The subsequent time periods are obtained by adding the year difference between t
 
 ![5]({{ site.url }}/images/5.jpg)
 
+## Clean Price
+
 The <em>P<sup>full</sup></em> equation thus becomes:
 
 ![6]({{ site.url }}/images/6.jpg)
 
-And finally we obtain the "clean price":
+And at the end we obtain the "clean price":
 
 <div class="message">
 <em>
@@ -114,7 +120,7 @@ Which rounded to 5 decimal places is the exact value calculated by the Bloomberg
 
 For convenience, we provide below the computation for each coupon period.
 
-| Date     | Payment | T (years)    | Discount Factor | Present Value  |
+| Date     | Payment | T (Years)    | Discount Factor | Present Value  |
 |----------|---------|--------------|-----------------|----------------|
 | 04/01/17 | 3.25    | 0.2513661202 | 0.9994978959    | 3.2483681617   |
 | 04/01/18 | 3.25    | 1.2513661202 | 0.9975028901    | 3.241884393    |
