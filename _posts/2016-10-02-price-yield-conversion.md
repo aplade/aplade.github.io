@@ -96,7 +96,7 @@ The <em>T<sub>1</sub>...T<sub>n</sub></em> time periods are thus expressed in ye
 ![4]({{ site.url }}/images/4.jpg)
 
 
-The subsequent time periods are obtained by adding the year difference between the next coupon and coupon <b><em>c<sub>i</sub></em></b> to the remaining lifetime of the current coupon.
+The subsequent time periods are obtained by adding the year difference between the next coupon and the coupon <b><em>c<sub>i</sub></em></b> to the remaining lifetime of the current coupon.
 
 ![5]({{ site.url }}/images/5.jpg)
 
