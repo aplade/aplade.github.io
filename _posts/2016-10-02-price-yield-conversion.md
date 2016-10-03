@@ -114,7 +114,7 @@ P<sup>clean</sup> = 112.3071034523 - 2.4330601093 = <b>109.874043343</b>
 </em>
 </div>
 
-Which rounded to 5 decimal places is the exact value given by the Bloomberg **YAS** screen.
+Which rounded to 5 decimal places is the exact value given by the Bloomberg **YAS** screen, the reference for market operators.
 
 For convenience, we provide below the computation for each coupon period.
 
