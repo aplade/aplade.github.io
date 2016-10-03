@@ -73,11 +73,11 @@ Accrued Interest = Coupon * Factor = 3.25 * 0.7486338798 = <b>2.4330601093</b>
 </em>
 </div>
 
+## Time Periods 
+
 Let's now go back to the equation of the "dirty price":
 
 ![1]({{ site.url }}/images/1.jpg)
-
-## Time Periods 
 
 It is worth noting that per ICMA Rule 803.1 the yield is annually compounded.
 
