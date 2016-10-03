@@ -79,7 +79,7 @@ Let's now go back to the equation of the "dirty price":
 
 ![1]({{ site.url }}/images/1.jpg)
 
-## Computing The Time Periods 
+## Time Periods 
 
 It is worth noting that per ICMA Rule 803.1 the yield is annually compounded.
 
