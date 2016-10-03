@@ -12,7 +12,7 @@ All product and company names are trademarks™ or registered® trademarks of th
 
 Bloomberg is a trademark of Bloomberg Finance L.P.
 
-## Privacy policy
+## Privacy Policy
 
 ### Log files
 
