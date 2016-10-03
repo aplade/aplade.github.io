@@ -10,9 +10,8 @@ Many Finance textbooks describe the computation but the provided formulas are to
 This post aims to provide a step-by-step explanation of the Price/Yield conversion used by market practitioners and valid for any valuation date.
 
 We will begin with the process of computing the price, given the yield, of a Federal Republic of Germany debt security maturing on the 4th of January 2020 and paying an annual coupon of 3.25%. 
-
+<br><br>
 ## Present Value
-
 Let's lay down the pricing parameters first:
 
 | Name                               | Value         |
@@ -44,7 +43,7 @@ It is calculated as follows:
 P<sup>clean</sup> = P<sup>full</sup> - Accrued Interest
 </em>
 </div>
-
+<br><br>
 ## Accrued Interest
 
 Accrued interest equals the coupon times the fraction of the coupon period from the previous coupon payment date to the valuation date.
@@ -76,9 +75,8 @@ Accrued Interest = Coupon * Factor = 3.25 * 0.7486338798 = <b>2.4330601093</b>
 
 Let's now go back to the equation of the "dirty price":
 
-
 ![1]({{ site.url }}/images/1.jpg)
-
+<br><br>
 ## Time Periods 
 
 It is worth noting that per ICMA Rule 803.1 the yield is annually compounded.
@@ -101,7 +99,7 @@ The <em>T<sub>1</sub>...T<sub>n</sub></em> time periods are thus expressed in ye
 The subsequent time periods are obtained by adding the year difference between the next coupon and the corresponding coupon to the remaining lifetime of the current coupon.
 
 ![5]({{ site.url }}/images/5.jpg)
-
+<br><br>
 ## Clean Price
 
 The <em>P<sup>full</sup></em> equation thus becomes:
