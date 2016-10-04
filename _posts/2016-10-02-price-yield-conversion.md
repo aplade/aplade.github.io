@@ -79,14 +79,7 @@ Let's now go back to the equation of the "dirty price":
 
 ![1]({{ site.url }}/images/1.jpg)
 
-It is worth noting that per ICMA Rule 803.1 the yield is annually compounded.
-
-ICMA Rule 803.1 states:
-
-<div class="message">
-<em>
-The Association's standard method of calculating maturity yields shall be based on the definition of annual interest compounding. i.e. a bond with a 7% coupon, payable annualy, priced at 100% yields 7% per annum and the same bond paying interests semi-annually yields more.</em>
-</div>
+It is worth noting that the yield is annually compounded as we follow the German Fixed Rate Bonds convention in which yields are compounded on the same frequency as the coupon frequency.
 
 The <em>T<sub>1</sub>...T<sub>n</sub></em> time periods are thus expressed in years.
 
