@@ -79,7 +79,7 @@ Let's now go back to the equation of the "dirty price":
 
 ![1]({{ site.url }}/images/1.jpg)
 
-It is worth noting that the yield is annually compounded as we follow the German Fixed Rate Bonds convention in which yields are compounded on the same frequency as the coupon frequency.
+It is worth noting that yields ***(y)*** are annually compounded as we use the German Fixed Rate Bonds method in which yields are compounded on the same frequency as the coupon frequency.
 
 The <em>T<sub>1</sub>...T<sub>n</sub></em> time periods are thus expressed in years.
 
