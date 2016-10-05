@@ -62,7 +62,7 @@ For regular coupon periods the coupon equation is:
 \\[Coupon = \\frac{Coupon\\ rate \\times Nominal
 }{Coupon\\ frequency} = \\frac{0.0325 \\times 100}{1} = \\textbf{3.25}\\]
 
-At present, we have the values required for the computation of the Accrued Interest:
+At present we can compute the Accrued Interest:
 
 \\[Accrued\\ Interest = Coupon \\times Factor = 3.25 \\times 0.7486338798 = \\textbf{2.4330601093}\\]
 
