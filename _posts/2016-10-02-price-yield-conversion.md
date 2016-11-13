@@ -62,7 +62,7 @@ For regular coupon periods the coupon equation is:
 \\[Coupon = \\frac{Coupon\\ rate \\times Nominal
 }{Coupon\\ frequency} = \\frac{0.0325 \\times 100}{1} = \\textbf{3.25}\\]
 
-At present, we have the values required for the computation of the Accrued Interest:
+At present we can compute the Accrued Interest:
 
 \\[Accrued\\ Interest = Coupon \\times Factor = 3.25 \\times 0.7486338798 = \\textbf{2.4330601093}\\]
 
@@ -73,7 +73,7 @@ Let's now go back to the equation of the "dirty price":
 \\[P^{full} = \\frac{c\_{1}}{(1 + y)^{T\_{1}}} + \\frac{c\_{2}}{(1 + y)^{T\_{2}}}+\\dotsm+\\frac{Nominal\\ value + c\_{n}}{(1 + y)^{T\_{n}}}\\]
 
 
-It is worth noting that yields ***(y)*** are annually compounded as we use the German Fixed Rate Bonds method in which yields are compounded on the same frequency as the coupon frequency.
+It is worth noting that yields $$(y)$$ are annually compounded as we use the German Fixed Rate Bonds method in which yields are compounded on the same frequency as the coupon frequency.
 
 The <em>T<sub>1</sub>...T<sub>n</sub></em> time periods are thus expressed in years.
 
