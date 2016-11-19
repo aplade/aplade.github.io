@@ -16,7 +16,7 @@ Let's lay down the pricing parameters first:
 
 | Name                               | Value         |
 |------------------------------------|---------------|
-| Maturity                           | 01/04/20      |
+| Maturity                           | 04/01/20      |
 | Coupon Rate                        | 3.25%         |
 | Coupon frequency                   | 1             |
 | Valuation date                     | 04/10/16      |
