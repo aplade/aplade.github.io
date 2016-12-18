@@ -3,6 +3,8 @@ layout: post
 title: Price/Yield Conversion In Practice
 ---
 
+![PYC]({{ site.url }}/images/money-256294_1920.jpg)
+
 When working with Fixed Income trading systems we are often confronted with the requirement to implement a bond security Price/Yield conversion service. 
 
 Many Finance textbooks describe the computation but the provided formulas are too academic and examples are provided only for the special case when the valuation date coincides with the coupon payment date.
@@ -136,7 +138,7 @@ where \\(TTM\\) is the time to maturity of the bond, we obtain the initial value
 \\[y_0 = \\frac{3.25}{109.874043}+\left[\\frac{100}{109.874043}\right]^{3.2513661202^{-1}} - 1 = \\textbf{0.001033
 }\\]
 
-By substituting the initial yield in the price formula we obtain the price
+By substituting the initial yield into the price formula we obtain the price
 
 \\[P^{clean} = P^{full} - AI = \\frac{3.25}{(1 + 0.001033)^{0.2513661202}} + \\frac{3.25}{(1 + 0.001033)^{1.2513661202}}+\\frac{3.25}{(1 + 0.001033)^{2.2513661202}}+\\frac{103.25}{(1 + 0.001033)^{3.2513661202}}
 -2.4330601093
@@ -160,13 +162,13 @@ It is determined by computing the derivative of the price equation and substitut
 
 \\[f^\prime(y)=\\frac{dP}{dy}= \\frac{-T\_{1}\\times c\_{1}}{(1 + y)^{1+T\_{1}}} + \\frac{-T\_{2}\\times c\_{2}}{(1 + y)^{1+T\_{2}}}+\\dotsm+ \\frac{-T\_{n}\\times (Nominal\\ value+c\_{n})}{(1 + y)^{1+T\_{n}}}\\]
 
-By substituting \\(y\\) with \\(y\_{0}\\) the above value is obtained.
+Substituting \\(y\\) with \\(y\_{0}\\) gives:
 
 \\[f^\prime(y\_{0})=\\frac{-0.2513661202\\times 3.25}{(1 + 0.001033)^{1.2513661202}} + \\frac{-1.2513661202\\times 3.25}{(1 + 0.001033)^{2.2513661202}}+\\frac{-2.2513661202\\times 3.25}{(1 + 0.001033)^{3.2513661202}}+ \\frac{-3.2513661202
 \\times 103.25}{(1 + 0.001033)^{4.2513661202}
 }= \\textbf{-346.399}\\]
 
-Our new estimate of the yield is substituted in the price formula and gives us a new clean price of
+Our new estimate of the yield is substituted into the price formula and gives us a new clean price of
 
 \\[P^{clean} = P^{full} - AI = \\frac{3.25}{(1 + 0.001998)^{0.2513661202}} + \\frac{3.25}{(1 + 0.001998)^{1.2513661202}}+\\frac{3.25}{(1 + 0.001998)^{2.2513661202}}+\\frac{103.25}{(1 + 0.001998)^{3.2513661202}}
 -2.4330601093
