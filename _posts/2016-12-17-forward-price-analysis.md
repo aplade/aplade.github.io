@@ -38,7 +38,7 @@ We'll consider the simple use case of one coupon payment between the spot date a
 | d<sub>sf</sub>         | 60 |Actual number of days between the Spot date and the Forward date|
 | AI<sub>f</sub>                | 0.1157534247|Accrued Interest at Forward date per 100 currency units of face value|
 | C          | 3.25 |Coupon payment per 100 currency units of face value|
-| k     | 47 |Actual number of days between the Spot date and the coupon date|
+| k     | 47 |Actual number of days between the Spot date and the Coupon date|
 | b | 13 |Actual number of days between the Coupon date and the Forward date|
 
 The below diagram illustrates the key dates:
