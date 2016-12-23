@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Forward Price Analysis Of Coupon Bonds
+title: Forward Price Analysis of Coupon Bonds
 ---
 
 ![FPA]({{ site.url }}/images/clock-1726375_1920.jpg)
