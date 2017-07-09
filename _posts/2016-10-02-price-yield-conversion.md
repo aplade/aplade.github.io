@@ -8,7 +8,9 @@ title: Price/Yield Conversion In Practice
 When working with Fixed Income trading systems we are often confronted with the requirement to implement a bond security Price/Yield conversion service. Many Finance textbooks describe the computation but the provided formulas are too academic and examples are provided only for the special case when the valuation date coincides with the coupon payment date. This post aims to provide a step-by-step explanation of the Price/Yield conversion used by market practitioners and valid for any valuation date.
 </span>
 
+<span class="justify">
 We will begin with the process of computing the price, given the yield, of a Federal Republic of Germany debt security maturing on the 4th of January 2020 and paying an annual coupon of 3.25%. 
+</span>
 
 ## Present Value
 Let's lay down the pricing parameters first:
