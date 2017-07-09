@@ -5,17 +5,14 @@ title: Forward Price Analysis of Coupon Bonds
 
 ![FPA]({{ site.url }}/images/clock-1726375_1920.jpg)
 
-Two-way bond prices advertised by dealers on electronic trading platforms are valid for immediate delivery.
-These prices are called ***spot prices***.
+<span class="justify">
+Two-way bond prices advertised by dealers on electronic trading platforms are valid for immediate delivery. These prices are called ***spot prices***. A client that wishes the security to be delivered at a particular date in the future will implicitly enter in a forward contract with the dealer.
+The ***forward price*** refers to the price of that contract. The term ***forward date*** refers to the date of that future purchase or sale. By convention, the forward price is quoted as a flat price. The invoice price of the transaction equals the forward price plus accrued interest at the forward date.
+</span>
 
-A client that wishes the security to be delivered at a particular date in the future will implicitly enter in a forward contract with the dealer.
-The ***forward price*** refers to the price of that contract. 
-The term ***forward date*** refers to the date of that future purchase or sale.
-
-By convention, the forward price is quoted as a flat price. 
-The invoice price of the transaction equals the forward price plus accrued interest at the forward date.
-
+<span class="justify">
 The concept behind the forward price calculation is to equalize income and expenses for the following strategy:
+</span>
 
 1. Borrow the money at repo rate *R*
 2. Buy the bond at spot date 
@@ -23,11 +20,13 @@ The concept behind the forward price calculation is to equalize income and expen
 
 In other words:
 
-\\[Full\\ price\\ at\\ spot\\ date + financing\\ cost\\ from\\ spot\\ date\\ to\\ forward\\ date = forward\\ price + coupon\\ payments from\\ spot\\ date\\ to\\ forward\\ date + reinvestment\\ of\\ coupon\\ payments\\ until\\ forward\\ date + accrued\\ interest\\ at\\ forward\\ date\\]
+<span class="justify">
+***Full price at spot date + financing cost from spot date to forward date = forward price + coupon payments from spot date to forward date + reinvestment of coupon payments until forward date + accrued interest at forward date***
+</span>
 
+<span class="justify">
 Three methods are used in practice to calculate the forward price. They vary in the calculation of financing cost on borrowed money and on the reinvestment of coupon payments received between the spot date and the forward date.
-
-We'll consider the simple use case of one coupon payment between the spot date and the forward date for the three methods.
+We'll consider the simple use case of one coupon payment between the spot date and the forward date for the three methods.</span>
 
 | Name                               | Value         | Description|
 |------------------------------------|---------------|---------------|
@@ -47,9 +46,13 @@ The below diagram illustrates the key dates:
 
 ## Proceeds Method
 
+<span class="justify">
 The financing cost on the invoice price is calculated using simple interest from the spot date to the forward date.
+</span>
 
+<span class="justify">
 Coupon is reinvested with simple interest from the coupon date to the forward date. 
+</span>
 
 \\[(P\_{s}+AI\_{s}) \\left(1+\\frac{R\\cdot d\_{sf}}{360}\\right) = P\_{f}+AI\_{f}+C\\left(1+\\frac{R\\cdot b}{360}\\right)\\]
 
@@ -64,9 +67,13 @@ Substituting the values gives:
 
 ## CD Method
 
+<span class="justify">
 The financing cost on the invoice price is calculated by combining simple interest from the spot date to the coupon date with simple interest from the coupon date to the forward date.
+</span>
 
+<span class="justify">
 Coupon is reinvested with simple interest from the coupon date to the forward date. 
+</span>
 
 \\[P\_{f} = (P\_{s}+AI\_{s}) \\left(1+\\frac{R\\cdot k}{360}\\right)\\left(1+\\frac{R\\cdot b}{360}\\right)-AI\_{f}- C\\left(1+\\frac{R\\cdot b}{360}\\right)\\]
 
@@ -77,9 +84,13 @@ Substituting the values gives:
 
 ## Scientific Method
 
+<span class="justify">
 The financing cost on the invoice price is calculated by compounding interest from the spot date to the forward date.
+</span>
 
+<span class="justify">
 Coupon reinvestment is calculated by compounding interest from the coupon date to the forward date. 
+</span>
 
 \\[P\_{f} = (P\_{s}+AI\_{s}) \\left(1+R\\right)^{\\frac{d\_{sf}}{360}}-AI\_{f}- C\\left(1+R\\right)^{\\frac{b}{360}}\\]
 
