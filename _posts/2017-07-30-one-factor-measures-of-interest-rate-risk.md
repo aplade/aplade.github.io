@@ -32,6 +32,7 @@ The pricing parameters of the bond are as follows:
 | Next coupon payment date           | 04-Jan-17     |
 | Price (P')                         | 95.1843       | 
 | Yield  (y')                        | 6%            |
+
 <p align="center">Table 1</p>
 
 ## First Derivative of Price with Respect to Yield
