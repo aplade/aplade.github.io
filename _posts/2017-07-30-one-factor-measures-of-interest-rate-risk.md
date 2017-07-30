@@ -76,6 +76,7 @@ In the following table approximate first derivative values are computed for incr
 |-500 bp	|1.00%	|109.7269|-265.4 bp|
 |+1000 bp|16.00%	|73.2063|-271.6 bp|
 |-1000 bp|-4.00%	|127.5302|-271.6 bp|
+
 <p align="center">Table 2</p>
 
 <span class="justify">
