@@ -208,4 +208,5 @@ Total estimated percentage price change&nbsp;=&nbsp;-12.60%<br />
 The actual percentage price change is −12.60%.
 
 The below table summarizes the actual and estimated percentage price change for various yield shifts.
+<br />
 ![TD]({{ site.url }}/images/tableduration.jpg)
