@@ -23,16 +23,15 @@ The pricing parameters of the bond are as follows:
 
 | Name                               | Value         |
 |------------------------------------|---------------|
-| Maturity                           | 04-Jan-20      |
+| Maturity                           | 04-Jan-20     |
 | Coupon Rate                        | 3.25%         |
 | Coupon frequency                   | 1             |
-| Valuation date                     | 04-Oct-16      |
-| Nominal value                      | 100€           |
+| Valuation date                     | 04-Oct-16     |
 | Day count convention               | Actual/Actual |
-| Previous coupon payment date       | 04-Jan-16      |
-| Next coupon payment date           | 04-Jan-17      |
-| Price (P')                               | 95.1843       | 
-| Yield  (y')                             | 6%            |
+| Previous coupon payment date       | 04-Jan-16     |
+| Next coupon payment date           | 04-Jan-17     |
+| Price (P')                         | 95.1843       | 
+| Yield  (y')                        | 6%            |
 <p align="center">Table 1</p>
 
 ## First Derivative of Price with Respect to Yield
