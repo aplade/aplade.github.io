@@ -191,11 +191,11 @@ Using the values from Table 2, for a 500 basis points change we obtain`
 Given the convexity measure, the approximate percentage price change adjustment due to the bond’s convexity (i.e., the percentage price change not explained by duration) is
 </span>
 
-\\[Convexity\\ Adjustement=Convexity\\ Measure \\times (ΔY)^2 \\times 100\\]
+\\[Convexity\\ Adjustment=Convexity\\ Measure \\times (ΔY)^2 \\times 100\\]
 
 Subsituting the values for our example bond and for 500 basis points yield change
 
-\\[Convexity\\ Adjustement=5.35 \\times (0.05)^2 \\times 100=1.34\\]
+\\[Convexity\\ Adjustment=5.35 \\times (0.05)^2 \\times 100=1.34\\]
 
 <span class="justify">
 If the yield increases from 6% to 11%, the convexity adjustment to the approximate percentage price change based on duration would be 1.34%. The approximate percentage price change based on duration and the convexity adjustment is found by adding the two estimates. Thus, for example, if yields change from 6% to 11%, the estimated percentage price change would be
