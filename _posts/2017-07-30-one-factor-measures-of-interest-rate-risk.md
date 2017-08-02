@@ -26,7 +26,7 @@ The pricing parameters of the bond are as follows:
 | Maturity                           | 04-Jan-20     |
 | Coupon Rate                        | 3.25%         |
 | Coupon frequency                   | 1             |
-| Valuation date                     | 04-Oct-16     |
+| Valuation date                     | 18-Nov-16     |
 | Day count convention               | Actual/Actual |
 | Previous coupon payment date       | 04-Jan-16     |
 | Next coupon payment date           | 04-Jan-17     |
@@ -44,7 +44,7 @@ flows is perturbed. The first derivative of price with respect to yield is the s
 
 Given the price/yield function of the above bond 
 
-\\[P = \\frac{3.25}{(1 + y)^{0.2513661202}} + \\frac{3.25}{(1 + y)^{1.2513661202}}+\\frac{3.25}{(1 + y)^{2.2513661202}}+\\frac{103.25}{(1 + y)^{3.2513661202}}\\]
+\\[P = \\frac{3.25}{(1 + y)^{0.1284153005}} + \\frac{3.25}{(1 + y)^{1.1284153005}}+\\frac{3.25}{(1 + y)^{2.1284153005}}+\\frac{103.25}{(1 + y)^{3.1284153005}}\\]
 
 The first derivative of price with respect to yield is
 
