@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Price/Yield Conversion In Practice
 ---
 

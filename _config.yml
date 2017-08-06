@@ -10,14 +10,19 @@ description:         ''
 url:                 http://www.aplade.com
 baseurl:             
 paginate:            5
+markdown: redcarpet
+redcarpet:
+    extensions: ['tables']
 
 gems: [jekyll-paginate]
+excerpt_separator: "\n\n"
 
 # About/contact
 author:
+  gravatar:          d93292f482cdae112e86b557cf69a279
   name:              Roberto Bastianic
   url:               
-  email:             roberto.bastianic@aplade.com
+  email:             roberto.bastianic@gmail.com
 
 # Custom vars
 version:             1.0.0

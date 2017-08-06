@@ -332,6 +332,16 @@ a.sidebar-nav-item:focus {
   font-style: italic;
 }
 
+.post-date-small {
+  display: block;
+  margin-top: -.5rem;
+  margin-bottom: 1rem;
+  color: #9a9a9a;
+  font-style: italic;
+   font-size: 80%;
+}
+
+
 .author {
   display: block;
   margin-top: -.5rem;

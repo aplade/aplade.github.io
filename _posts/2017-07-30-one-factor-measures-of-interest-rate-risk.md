@@ -1,9 +1,9 @@
 ---
 layout: post
+comments: true
 title: One-factor Measures of Interest-Rate Risk for an Option-Free Fixed Coupon Bond  
 ---
 ![Risk]({{ site.url }}/images/risk-1945683_1920.jpg)
-
 <span class="justify">
 The interest rate risk of a bond may be measured by how much its price changes as interest rates change. The change in the price of a fixed-rate coupon bond when market interest rates change is due to the fact that the bond’s coupon rate differs from the prevailing market interest rate. When a bond’s coupon is higher than the market interest-rate the demand for the bond will increase which will drive its price up. Inversely, when the coupon is lower than the market interest-rate, investors will favor newly issued bonds paying higher coupons which will drive the price down.
 </span>

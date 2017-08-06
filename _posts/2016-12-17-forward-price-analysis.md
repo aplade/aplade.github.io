@@ -1,10 +1,10 @@
 ---
 layout: post
+comments: true
 title: Forward Price Analysis of Coupon Bonds
 ---
 
 ![FPA]({{ site.url }}/images/clock-1726375_1920.jpg)
-
 <span class="justify">
 Two-way bond prices advertised by dealers on electronic trading platforms are valid for immediate delivery. These prices are called ***spot prices***. A client that wishes the security to be delivered at a particular date in the future will implicitly enter in a forward contract with the dealer.
 The ***forward price*** refers to the price of that contract. The term ***forward date*** refers to the date of that future purchase or sale. By convention, the forward price is quoted as a flat price. The invoice price of the transaction equals the forward price plus accrued interest at the forward date.
