@@ -10,9 +10,8 @@ description:         ''
 url:                 http://www.aplade.com
 baseurl:             
 paginate:            5
-markdown: redcarpet
-redcarpet:
-    extensions: ['tables']
+markdown: kramdown
+
 
 gems: [jekyll-paginate]
 excerpt_separator: "\n\n"
