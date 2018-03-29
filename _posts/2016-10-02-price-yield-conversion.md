@@ -169,11 +169,7 @@ As this price is greater than the given price 109.874043 the above formula is re
 
 According to Newton-Raphson the \\(y\_{1}\\) is determined as:
 
-\\[y_1 = 0.001033
-- \\frac{110.208333-109.874043
-}{-346.399
-}= \\textbf{0.001998
-}\\]
+\\[y_1 = 0.001033 - \\frac{110.208333-109.874043}{-346.399}= \\textbf{0.001998}\\]
 
 where -346.399 is the derivative of the price equation with respect to yield.
 
